@@ -1,0 +1,242 @@
+@charset "UTF-8";
+body {
+  color: #333;
+  font-size: small;
+  font-family: verdana, "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "MS PGothic", Sans-Serif;
+  line-height: 1.5;
+  background: #f1f1f1;
+}
+
+body a {
+  color: #8aaa16;
+  text-decoration: none;
+}
+
+body a:hover {
+  color: #708c0c;
+}
+
+body a:active,
+body a:focus {
+  outline: 0;
+}
+
+body #wrapper {
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  background: #fff;
+}
+
+body header .header-wrapper {
+  height: 80px;
+}
+
+body header .header-wrapper .header-left-link {
+  position: relative;
+}
+
+body header .header-wrapper .header-left-link .logo {
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  float: left;
+}
+
+body header .header-wrapper .header-left-link h1 {
+  float: left;
+  margin: 10px 0;
+  font-size: 40px;
+}
+
+body header .header-wrapper .right-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  height: 100%;
+}
+
+body header .header-wrapper .right-nav ul {
+  margin-left: auto;
+  text-align: right;
+}
+
+body header .header-wrapper .right-nav ul li {
+  display: inline;
+}
+
+body main {
+  padding-top: 0;
+  padding: 20px;
+}
+
+body main .main-banner {
+  margin: 0px auto 15px;
+  padding: 0;
+  width: 100%;
+  position: relative;
+  line-height: 0;
+}
+
+body main .main-banner img {
+  max-width: 100%;
+  height: auto;
+  border: 4px solid #ebebeb;
+}
+
+body main .slogan {
+  position: absolute;
+  max-width: 100%;
+  height: auto;
+  bottom: 10px;
+  left: 10px;
+  padding: 5px 5px;
+  line-height: 1.4;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+body main .slogan h2 {
+  font-size: 5vw;
+}
+
+body main .slogan h3 {
+  font-size: 3vw;
+}
+
+body main h3 {
+  text-align: center;
+}
+
+body main .news table {
+  border-bottom: 1px solid #dee2e6;
+}
+
+body main .news a {
+  text-align: right;
+}
+
+body main .news .td-date {
+  width: 100px;
+}
+
+body main .news .td-second {
+  color: #ffffff;
+  text-align: center;
+}
+
+body main .news .td-second p {
+  background-color: lightblue;
+  margin: 1px;
+}
+
+body main .a-right {
+  text-align: right;
+}
+
+body main .content {
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ebebeb;
+  overflow: hidden;
+}
+
+body main .content .heading {
+  font-weight: normal;
+  font-size: 14px;
+  padding: 0 10px;
+  line-height: 36px;
+  color: #fff;
+  background: url("../img/heading3.png") repeat-x 0 0;
+}
+
+body main .content img {
+  max-width: 90%;
+  height: auto;
+}
+
+body main .content .img-container {
+  text-align: center;
+}
+
+body main .content table .table td {
+  border-collapse: collapse;
+  background-color: #F9F9F9;
+  text-align: left;
+  padding: 8px;
+  border: 1px solid #D6D6D6;
+  line-height: 20px;
+}
+
+body main .content table.table th {
+  background-color: #F5F5F5;
+  text-align: right;
+  padding: 8px;
+  white-space: nowrap;
+  color: #151515;
+  border-top: 1px solid #D4D4D4;
+  border-right: 4px solid #D4D4D4;
+  border-bottom: 1px solid #D4D4D4;
+  border-left: 1px solid #D4D4D4;
+  font-size: 13px;
+  font-weight: normal;
+  letter-spacing: 1px;
+  background-repeat: repeat-x;
+  background-position: top;
+  vertical-align: middle;
+}
+
+body #footer {
+  overflow: hidden;
+  padding: 10px 10px 20px 10px;
+  background: #e8e8e8;
+}
+
+body #footer h4 {
+  margin: 0;
+}
+
+body #footer .grid {
+  width: 100%;
+  text-align: center;
+}
+
+body #footer .grid p {
+  display: block;
+}
+
+body #footer #info .info {
+  float: none;
+  text-align: center;
+}
+
+body #footer .logo,
+body #footer .info {
+  width: 100%;
+}
+
+body #footer .tel {
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+body #footer .open {
+  margin-bottom: 0px;
+}
+
+body address {
+  padding: 5px;
+  text-align: center;
+  font-style: normal;
+  font-size: 12px;
+  color: #fff;
+  background: #333;
+  margin-bottom: 0;
+}
+/*# sourceMappingURL=style.css.map */
